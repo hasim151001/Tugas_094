@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Kalkulator</title>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="code.jquery.com_jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <table style="width: 100%;">
+        <tr>
+            <td>
+                <label for="bilangan1" style="width: 100%;">Bilangan 1</label>
+                <br />
+                <input type="text" id="bilangan1" />
+            </td>
+            <td>
+                <label for="bilangan2" style="width: 100%;">Bilangan 2</label>
+                <br />
+                <input type="text" id="bilangan2" />
+            </td>
+            <td>
+                <label for="hasil" style="width: 100%;">Hasil</label>
+                <br />
+                <input type="text" id="hasil" />
+            </td>
+        </tr>
+    </table>
+
+    <br />
+    <table style="width: 100%;">
+        <tr>
+            <td>
+                <input type="button" id="tambah" value="+" style="width: 100%;" onclick="tambah()" />
+            </td>
+            <td>
+                <input type="button" id="kurang" value="-" style="width: 100%;" onclick="kurang()" />
+            </td>
+            <td>
+                <input type="button" id="kali" value="x" style="width: 100%;" onclick="kali()" />
+            </td>
+            <td>
+                <input type="button" id="bagi" value="/" style="width: 100%;" onclick="bagi()" />
+            </td>
+            <td>
+                <input type="button" id="pangkat" value="^" style="width: 100%;" onclick="pangkat()" />
+            </td>
+        </tr>
+    </table>
+    <br />
+
+    <input type="button" id="btnCek" onclick="cekAngka();" value="Cek Angka" />
+
+    <br />
+
+    <p id="output1" class="myClass">
+        Lorem Ipsum<span class="mySpanClass">Lorem Ipsum</span>
+    </p>
+
+</body>
+</html>
